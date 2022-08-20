@@ -67,18 +67,18 @@ function App() {
         {/* Routes, Route 練習區 */}
         <Routes>
           <Route
-            path="/register"
+            path="register"
             element={<Register />}
           />
           <Route
-            path="/login"
+            path="login"
             element={<Login />}
           />
           <Route
-            path="/todo"
+            path="todo"
             element={<Todo />}
           />
-          <Route path="/post" element={<Post />}>
+          <Route path="post" element={<Post />}>
             <Route path=":postId" element={<PostId />} />
           </Route>
           <Route
